@@ -1,0 +1,51 @@
+/* Add background pattern */
+body {
+  background-image: url("playstation-pattern.png");
+  background-repeat: repeat;
+}
+
+.topnav {
+  background-color: #343434;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #404142;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2E99D1;
+  color: white;
+}
+
+.table {
+  height: 20%;
+}
+
+.favicon {
+  position: absolute;
+  right: 10px;
+  fill: black;
+  transition: all 1.5s ease;
+}
+
+.favoritebutton{
+  transition: all 1.5s ease;
+}
+
+.fillred {
+  fill: red;
+}

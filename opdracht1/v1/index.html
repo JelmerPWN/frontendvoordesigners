@@ -1,17 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
 <html>
-  <head></head>
-  <body>
-    <h1>Opdracht 1 - versie 1</h1>
-    <p>
-      Hier komt de HTML van de interactieve demo te staan voor de eerste opdracht:
-      Ontwerp een user interface voor een gegeven use case.
-      Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een browser.
-    </p>
-    <ol>
-      <li>Als ik een lijst films heb gevonden, wil ik leuke films kunnen opslaan om ze thuis te ...</li>
-      <li>In een lijst gevonden studentenhuizen wil ik details kunnen bekijken om te bepalen of de kamer geschikt is.</li>
-      <li>In een verzameling muzieknummers wil ik de volgorde kunnen veranderen om een vette playlist te maken.</li>
-      <li>Als ik foto's zoek wil ik kunnen selecteren op kleur om verassende zoekresultaten te krijgen.</li>
-    </ol>
-  </body>
+
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <!-- LOAD External CSS File -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Page Name -->
+<title>Exercise 1</title>
+
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1504.83">
+  <style type="text/css">
+  </style>
+
+</head>
+
+<body>
+<!-- Create header menu bar -->
+<div class="topnav">
+  <!-- Create menu items -->
+  <a class="active" href="#home">Log-in</a>
+  <a class="favicon" id="menufavicon" href="#favicon"><svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+     x="0px" y="0px" width="25.5px" height="23.45px" viewBox="0 0 510 469.2" style="enable-background:new 0 0 510 469.2;"
+     xml:space="preserve">
+  <defs>
+  </defs>
+  <g>
+    <g class="menufavoritebutton">
+      <path d="M255,469.2l-35.7-35.7C86.7,316.2,0,237.1,0,140.2C0,61.2,61.2,0,140.2,0c43.4,0,86.7,20.4,114.8,53.5
+        C283,20.4,326.4,0,369.8,0C448.8,0,510,61.2,510,140.2c0,96.9-86.7,175.9-219.3,293.2L255,469.2z"/>
+    </g>
+  </g>
+  </svg></a>
+</div>
+<!-- Create body page -->
+<div class="body">
+  <h1>Movie List</h1>
+<!-- Create table for a grid view of movies/series -->
+  <table class="table">
+    <tr>
+      <td>
+        <img src="Prison_Break.jpg"><br/>
+        <h3>Prison Break</h3><svg version="1.1"
+        	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+        	 x="0px" y="0px" width="25.5px" height="23.45px" viewBox="0 0 510 469.2" style="enable-background:new 0 0 510 469.2;"
+        	 xml:space="preserve">
+        <defs>
+        </defs>
+        <g>
+        	<g class="favoritebutton">
+        		<path d="M255,469.2l-35.7-35.7C86.7,316.2,0,237.1,0,140.2C0,61.2,61.2,0,140.2,0c43.4,0,86.7,20.4,114.8,53.5
+        			C283,20.4,326.4,0,369.8,0C448.8,0,510,61.2,510,140.2c0,96.9-86.7,175.9-219.3,293.2L255,469.2z"/>
+        	</g>
+        </g>
+        </svg></td>
+      <td>
+        <img src="Breaking_Bad.jpg"><br/>
+        <h3>Breaking Bad</h3><svg version="1.1"
+        	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+        	 x="0px" y="0px" width="25.5px" height="23.45px" viewBox="0 0 510 469.2" style="enable-background:new 0 0 510 469.2;"
+        	 xml:space="preserve">
+        <defs>
+        </defs>
+        <g>
+        	<g class="favoritebutton">
+        		<path d="M255,469.2l-35.7-35.7C86.7,316.2,0,237.1,0,140.2C0,61.2,61.2,0,140.2,0c43.4,0,86.7,20.4,114.8,53.5
+        			C283,20.4,326.4,0,369.8,0C448.8,0,510,61.2,510,140.2c0,96.9-86.7,175.9-219.3,293.2L255,469.2z"/>
+        	</g>
+        </g>
+        </svg></td>
+      <td>
+        <img src="Walking_Dead.jpg"><br/>
+        <h3>The Walking Dead</h3>
+        <!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="25.5px" height="23.45px" viewBox="0 0 510 469.2" style="enable-background:new 0 0 510 469.2;"
+	 xml:space="preserve">
+<defs>
+</defs>
+<g>
+	<g class="favoritebutton">
+		<path d="M255,469.2l-35.7-35.7C86.7,316.2,0,237.1,0,140.2C0,61.2,61.2,0,140.2,0c43.4,0,86.7,20.4,114.8,53.5
+			C283,20.4,326.4,0,369.8,0C448.8,0,510,61.2,510,140.2c0,96.9-86.7,175.9-219.3,293.2L255,469.2z"/>
+	</g>
+</g>
+</svg>
+
+      </td>
+    </tr>
+  </table>
+  <!-- END OF TABLE -->
+
+
+</div>
+
+
+
+</div>
+<!-- LOAD JAVASCRIPT -->
+<script src="myScript.js"></script>
+</body>
+
 </html>
