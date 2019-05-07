@@ -15,8 +15,8 @@ Bij versie 1 is het mogelijk om het hartje bij een film rood te laten kleuren. E
 
 Bij versie 2 kleurt ook het hartje in de menubalk mee indien bij de eerste film het hartje is rood gekleurd. Helaas is het mij niet gelukt om voor de overige twee films het hartje werkend te maken. 
 
-[Bekijk versie 1](https://JelmerPWN.github.io/frontendvoordesigners/opdracht1/v2/index.html)
-[Bekijk de brondcode van versie 1](https://github.com/JelmerPWN/frontendvoordesigners/blob/master/opdracht1/v2/)
+[Bekijk versie 2](https://JelmerPWN.github.io/frontendvoordesigners/opdracht1/v2/index.html)
+[Bekijk de brondcode van versie 2](https://github.com/JelmerPWN/frontendvoordesigners/blob/master/opdracht1/v2/)
 
 Het javascript gedeelte is opgebouwd uit twee delen. Namelijk het selecteren van het object en een eventlistener, toggle aan te maken voor het object. 
 ```javascript
