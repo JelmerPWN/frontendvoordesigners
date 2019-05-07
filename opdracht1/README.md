@@ -10,12 +10,12 @@ Ik heb het lijstje met films via de 'old-school' table methode te gebruiken in h
 ```
 Bij versie 1 is het mogelijk om het hartje bij een film rood te laten kleuren. Echter verandert het hartje in de menubalk nog niet mee. 
 
-[Bekijk versie 1](https://JelmerPWN.github.io/frontendvoordesigners/opdracht1/v1/)
+[Bekijk versie 1](https://JelmerPWN.github.io/frontendvoordesigners/opdracht1/v1/index.html)
 [Bekijk de brondcode van versie 1](https://github.com/JelmerPWN/frontendvoordesigners/blob/master/opdracht1/v1/)
 
 Bij versie 2 kleurt ook het hartje in de menubalk mee indien bij de eerste film het hartje is rood gekleurd. Helaas is het mij niet gelukt om voor de overige twee films het hartje werkend te maken. 
 
-[Bekijk versie 1](https://JelmerPWN.github.io/frontendvoordesigners/opdracht1/v2/)
+[Bekijk versie 1](https://JelmerPWN.github.io/frontendvoordesigners/opdracht1/v2/index.html)
 [Bekijk de brondcode van versie 1](https://github.com/JelmerPWN/frontendvoordesigners/blob/master/opdracht1/v2/)
 
 Het javascript gedeelte is opgebouwd uit twee delen. Namelijk het selecteren van het object en een eventlistener, toggle aan te maken voor het object. 
