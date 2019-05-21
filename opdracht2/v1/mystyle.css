@@ -1,0 +1,152 @@
+/* General body */
+body {
+  width: 100%;
+  position: static;
+  left: 0px;
+  background-color: #343434;
+
+}
+
+/* Menu header */
+.header {
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  top:0px;
+  text-align: center;
+  background-color: #189dda;
+  font-family: verdana;
+  color: white;
+}
+
+.p {
+
+
+}
+.song {
+  width 80%;
+  display: block;
+  height: 50px;
+  position: relative;
+  top: 140px;
+  text-align: center;
+  font-family: verdana;
+  color: white;
+  line-height:50px;
+  /* change cursor */
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+  cursor: pointer;
+}
+
+.introduction {
+
+  height: 50px;
+  position: relative;
+  top: 140px;
+  text-align: center;
+  font-family: verdana;
+  color: #189dda;
+  line-height:20px;
+  /* change cursor */
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+  cursor: pointer;
+}
+
+
+
+
+
+/* QUEUE Symbol */
+
+/* SONG 1 */
+.song1queuehidden {
+  display: none;
+}
+.song1queueshow {
+  display: inline-block;
+}
+
+/* SONG 2 */
+.song2queuehidden {
+  display: none;
+}
+.song2queueshow {
+  display: inline-block;
+}
+
+/* SONG 3 */
+.song3queuehidden {
+  display: none;
+}
+.song3queueshow {
+  display: inline-block;
+}
+
+/* SONG 4 */
+.song4queuehidden {
+  display: none;
+}
+.song4queueshow {
+  display: inline-block;
+}
+
+/* SONG 5 */
+.song5queuehidden {
+  display: none;
+}
+.song5queueshow {
+  display: inline-block;
+}
+
+/* Play Symbol */
+
+/* Song 1 */
+.song1playhidden {
+  display: none;
+}
+.song1playshow {
+  display: inline-block;
+  fill: #189dda;
+}
+
+/* Song 2 */
+.song2playhidden {
+  display: none;
+}
+.song2playshow {
+  display: inline-block;
+  fill: #189dda;
+}
+
+/* Song 3 */
+.song3playhidden {
+  display: none;
+}
+.song3playshow {
+  display: inline-block;
+  fill: #189dda;
+}
+
+/* Song 4 */
+.song4playhidden {
+  display: none;
+}
+.song4playshow {
+  display: inline-block;
+  fill: #189dda;
+}
+
+/* Song 5 */
+.song5playhidden {
+  display: none;
+}
+.song5playshow {
+  display: inline-block;
+  fill: #189dda;
+}
