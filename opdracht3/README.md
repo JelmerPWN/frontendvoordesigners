@@ -187,15 +187,15 @@ Indien er op een poster wordt geklikt komt er meer informatie over de desbetreff
     }
 }
 ```
-# Principles of User Interface Design:
+## Principles of User Interface Design:
 
-04. Keep users in control
+#### 04. Keep users in control
 Gebruikers kunnen de carrousel op meerdere manieren bedienen (buttons & arrow keys) en er verschijnt een button 'close' om terug te gaan naar de carrousel indien een film is geselecteerd. 
 
-09. Provide a natural next step
+#### 09. Provide a natural next step
 Zelfreflectie, ik had beter kunnen aangeven wat de gebruiker kan doen als de carrousel geladen is. Indien meer informatie wordt weergegeven nadat een film poster is aangeklikt komt er wel een button tevoorschijn om deze informatie weer te sluiten. Deze had een prominentere plek kunnen hebben en wellicht in de vorm van een rood kruis ipv 'close'.
 
-11. Strong visual hierarchies work best
+#### 11. Strong visual hierarchies work best
 Titel is in een grotere font-size de rest heeft allemaal dezelfde font-size. Zelfreflectie, hier had ik wat meer aandacht aan mogen besteden.
 
 
